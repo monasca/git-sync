@@ -17,7 +17,7 @@ run apk add --no-cache \
 copy modd.conf /modd.conf
 copy gitweb.conf.j2 /etc/gitweb.conf.j2
 copy nginx.conf /etc/nginx/nginx.conf
-copy init.sh sync.sh nginx.sh template.py /
+copy init.sh sync.sh template.py /
 
 expose 80 9418
 
